@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Luciano Serafino</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="css/icon ls.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--Hola! Mi nombre es Luciano, espero sea leve la corrección. Pido disculpas de antemano
+por semejante desorden. La idea origianl fue hacer algo sencillo utilizando la hoja de estilo de css, 
+pero me pareció bastante engorroso y viendo alternativas me topé con Bootstrap que en principio parece
+facilitar bastante el trabajo, pero puede que haya mezclado sin querer estas dos herramientas, ya que el
+desarrollo empezó con css puro y terminó siendo modificado con Boostrap. 
+Por otra parte hay errores a la vista que no logré corregir por completo, principalmente la parte responsive,
+hay un intento a través del uso de row y col pero en la práctica no terminé de hacerlo funcionar.
+Me hubiese gustado completar bastante más la web, de hecho lo voy a seguir intentando
+pero ya sin la presión de cumplir con una fecha de entrega. Muchas gracias. Saludos!
+-->
+   
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="css/icon ls.png" alt="Icono Luciano" 
+            width="36" height="36"></a>
+
+          <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#Sobre Mi">Sobre mi</a>
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+
+<header class="container-fluid header">
+    <div class="row align-items-end">
+        <div class="col-xl-9 col-lg-6 col-xs-12 p-5">
+
+          <h1 class="text-dark text-align-center p-5"> 
+            Hola! Soy<br><span class="textoEscrito"></span>
+          </h1>
+
+        </div>
+        <div class="col-xl-3 col-lg-6 col-xs-12 p-5">
+          
+          <h2 class="mt-5">
+            <img src="css/foto perfil 1.png" 
+            alt="fotoperfil" 
+            width="320px" 
+            height="auto">
+          </h2>
+        </div>
+   </div>
+</header>
+
+<section class id="Sobre Mi">
+<div class="row justify-content-center">
+  <div class="icono col-xl-5 col-lg-6 col-xs-12"><img src="css/iconos programas.png" alt="logos programas"></div>
+  <div class="texto col-xl-7 col-lg-6 col-xs-12">En los ultimos 8 años trabajé de manera independiente <br>
+                                                 en tres proyectos propios de venta online creados desde cero. <br>
+                                                 Durante este tiempo adquirí muchisima experiencia en el area de diseño digital<br>
+                                                 Y de ventas a traves de portales de ecommerce. </div>
+</div>
+
+
+
+<div class="row mt-5 container-fluid justify-content-center">
+  <div class="cuadrado m-5 col-3 p-5 text-center"><span>Tengo 31 años y soy de la ciudad de Pergamino, Prov. de Buenos Aires. <br> Soy papá de dos niñas y estoy en pareja</span></div>
+  <div class="cuadrado m-5 col-3 p-5 text-center"><span>Estudié Lic. en Comunicación Social en la ciudad de Rosario y creé un Estudio Gráfico llamado "Panda Sublimados"</span></div>
+  <div class="cuadrado m-5 col-3 p-5 text-center"><span>Desde hace 6 años además tengo una pañalera con venta online y junto a mi pareja administramos una institución infantil</span></div>
+</section>
+
+<section class id="Contacto">
+  
+  <div class="row mt-5 justify-content-center"> 
+  <h3 class="text-center">Contacto</h3>>
+  <div class="col-xl-6 col-lg- col-xs-12">
+
+      <form method="POST" action="#">
+              <div class="form-group m-1">
+              <input 
+              type="text" 
+              class="form-control" 
+              placeholder="Nombre completo"></div>
+          
+              <div class="form-group m-1">
+              <input 
+              type="email"
+              class="form-control" 
+              placeholder="ejemplo@correo.com"></div>
+          
+              <div class="form-group m-1">
+              <textarea 
+              placeholder="Dejame tu consulta"
+              class="form-control" 
+              cols="30" rows="10"></textarea></div>
+         <button class="btn btn-primary col-12">Enviar</button>
+      </form>
+  </div>
+</div> 
+</section>
+
+<footer class="footer container-fluid">
+  <div class="row justify-content-center">
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="javascript/javascript.js"></script>
+
+
+</body>
+</html>
